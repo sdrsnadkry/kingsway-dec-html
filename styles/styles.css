@@ -1,0 +1,31 @@
+p {
+    font-size: 50px;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+}
+
+th {
+    color: red;
+}
+
+td {
+    color: blue;
+}
+
+button {
+    background-color: antiquewhite;
+    font-size: 20px;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: px;
+}
+
+input {
+    color: red;
+    background-color: aquamarine;
+    border-width: 0px;
+    font-size: 30px;
+}
