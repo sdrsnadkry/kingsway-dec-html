@@ -54,3 +54,69 @@
 .bottom {
     margin-top: 100px;
 }
+
+.animal {
+    background-color: red;
+}
+
+.animal-type {
+    color: white;
+}
+
+
+/* 
+.animal:hover {
+    background-color: green;
+} */
+
+.animal:hover .animal-type {
+    color: green;
+}
+
+.input-text {
+    border-radius: 100px;
+    outline: none;
+}
+
+.input-text:focus {
+    /* background-color: red; */
+    border: 1px solid green;
+    /* outline: 1px solid green; */
+}
+
+.input-checkbox:checked {
+    /* border-radius: 100px; */
+    background-color: red;
+}
+
+.parent {
+    background-color: red;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 200px;
+    border-radius: 100px;
+}
+
+#child {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    /* top: 0px; */
+    right: -20px;
+    top: -20px;
+    border-radius: 100px;
+    /* left: 0px; */
+}
+
+#child2 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    border-radius: 100px;
+}
