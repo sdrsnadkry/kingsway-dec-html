@@ -1,64 +1,44 @@
-/* flex */
-
-.parent {
+.container {
     display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(179, 154, 151);
-    height: 400px;
-    justify-content: space-around;
-    align-items: start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.child {
-    width: 100px;
-    height: 100px;
-}
-
-.green {
-    background-color: green;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.color1 {
-    background-color: aliceblue;
-}
-
-.color2 {
-    background-color: aquamarine;
-}
-
-.color3 {
-    background-color: bisque;
-}
-
-.color4 {
-    background-color: blueviolet;
+.form {
+    max-width: 800px;
+    background-color: azure;
+    padding: 30px 50px;
+    border-radius: 20px;
 }
 
 .flex {
-    margin: 100px;
     display: flex;
-    height: 300px;
-    width: 300px;
-    background-color: rosybrown;
-    justify-content: center;
-    align-items: end;
 }
 
-.flex-child {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
+label {
+    display: block;
+    /* font-size: 14px; */
+}
+
+.form-group {
+    margin: 10px 10px 10px 10px;
+}
+
+.button {
+    background-color: aquamarine;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+input,
+select {
+    background-color: none;
+    border: 0;
+    outline: 0;
+    padding: 20px 30px;
+    font-size: 12px;
+    border-radius: 100px;
 }

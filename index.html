@@ -14,21 +14,97 @@
 
 <body>
 
-    <div class="parent">
-        <div class="child green"></div>
-        <div class="child red"></div>
-        <div class="child yellow"></div>
-        <div class="child color1"></div>
-        <div class="child color2"></div>
-        <div class="child color3"></div>
-        <div class="child color4"></div>
-        <div class="child color1"></div>
-        <div class="child color3"></div>
+    <div class="container">
+
+        <form class="form">
+
+            <div class="flex">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" required id="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone">
+            </div>
+            <div class="form-group">
+                <label for="phone">Gender</label>
+                <div class="flex">
+                    <div class="form-group">
+                        <label for="">Male</label>
+                        <input type="radio" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Female</label>
+                        <input type="radio" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Other</label>
+                        <input type="radio" id="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address">
+            </div>
+
+            <div class="form-group">
+                <label for="education">Education</label>
+                <select name="education" id="education">
+                <option value="see">SEE</option>
+                <option value="+2">+2</option>
+                <option value="bachelors">Bachelors</option>
+            </select>
+            </div>
+
+
+            <div class="flex">
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="">Accept terms and conditions</label>
+                <input type="checkbox">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+                <input type="time" id="date">
+            </div>
+            <div class="form-group">
+                <label for="color">Color</label>
+                <input type="color" id="color">
+            </div>
+
+            <button class="button">Submit</button>
+
+        </form>
     </div>
 
-    <div class="flex">
-        <div class="flex-child"></div>
-    </div>
+
 
 </body>
 
