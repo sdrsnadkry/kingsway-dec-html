@@ -1,25 +1,32 @@
-/**
- *  Reassign -> let, var
- *  Redeclare -> var
- */
+// const let var
 
-const name = "Heena";
+const name = "Sudarshan";
 
-const spacer = " ";
+var address = "Nepal";
 
-const lastName = "Khadgiiiii";
+function addTwoNumbers(a = 2, b = 0) {
+    //  const a = 10;
+    //  const b = 15;
 
-const fullName = name + spacer + lastName;
+    console.log(a, b);
 
-console.log(fullName);
+    const sum = a + b;
 
-const age = 50;
+    //recursion
+    addTwoNumbers();
 
-const a = 5;
+    return sum;
 
-const b = "10";
+    // console.log(sum);
+}
 
-const sum = String(a) + Number(b);
+// console.log(sum);
 
+//call this function
+addTwoNumbers();
 
-console.log(sum);
+const addedNumber = addTwoNumbers(10, 15);
+
+console.log(addedNumber);
+
+function subtractTwoNumber() {}
