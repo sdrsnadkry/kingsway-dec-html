@@ -1,31 +1,25 @@
-//Variables and constants
+/**
+ *  Reassign -> let, var
+ *  Redeclare -> var
+ */
 
-//const
+const name = "Heena";
 
-const name = "John";
-console.log("name", name);
+const spacer = " ";
 
+const lastName = "Khadgiiiii";
 
-// const name = "Pawan"
+const fullName = name + spacer + lastName;
 
+console.log(fullName);
 
-//let
+const age = 50;
 
-let age = 25;
-console.log(age);
-age = 26;
-console.log(age);
+const a = 5;
 
-// let age = 27
+const b = "10";
 
-//var
-
-var address = "Nepal";
-console.log(address);
-address = "USA";
-console.log(address);
+const sum = String(a) + Number(b);
 
 
-var address = "India"
-
-console.log(address)
+console.log(sum);
