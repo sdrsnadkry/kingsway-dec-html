@@ -1,23 +1,24 @@
-const whatIsReenaDoing = "Reena is sleeping now"
+const a = 1;
+const b = 2;
 
+const students = [
+    "Heena",
+    "Reena",
+    "Pawan",
+    "Samrakshyan",
+    "Rabin",
+    "Pradip",
+    "Samrat",
+    "Kripa",
+    "Bed",
+];
 
-//string methods
+const teachers = ["Sudarshan", "Sanish"];
 
+const combines = students.concat(teachers);
 
-//string length
-const length = whatIsReenaDoing.length
+console.log(combines)
 
-// uppercase
+// const commas = students.join(" ");
 
-const capital = whatIsReenaDoing.toUpperCase()
-
-//lowercase
-
-const lower = whatIsReenaDoing.toLowerCase()
-
-const charPoisition = whatIsReenaDoing.charAt(3)
-
-
-const newName = whatIsReenaDoing.replaceALl("e", "H")
-
-console.log(newName)
+// console.log(commas);
