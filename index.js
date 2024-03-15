@@ -1,37 +1,23 @@
-// const let var
+const whatIsReenaDoing = "Reena is sleeping now"
 
 
-//camelCase 
-// nameAndAddressAndOccupation
+//string methods
 
 
-const name = "Sudarshan";
+//string length
+const length = whatIsReenaDoing.length
 
-var address = "Nepal";
+// uppercase
 
-function addTwoNumbers(a = 2, b = 0) {
-    //  const a = 10;
-    //  const b = 15;
+const capital = whatIsReenaDoing.toUpperCase()
 
-    console.log(a, b);
+//lowercase
 
-    const sum = a + b;
+const lower = whatIsReenaDoing.toLowerCase()
 
-    //recursion
-    addTwoNumbers();
+const charPoisition = whatIsReenaDoing.charAt(3)
 
-    return sum;
 
-    // console.log(sum);
-}
+const newName = whatIsReenaDoing.replaceALl("e", "H")
 
-// console.log(sum);
-
-//call this function
-addTwoNumbers();
-
-const addedNumber = addTwoNumbers(10, 15);
-
-console.log(addedNumber);
-
-function subtractTwoNumber() {}
+console.log(newName)
