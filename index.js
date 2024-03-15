@@ -1,5 +1,10 @@
 // const let var
 
+
+//camelCase 
+// nameAndAddressAndOccupation
+
+
 const name = "Sudarshan";
 
 var address = "Nepal";
