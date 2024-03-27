@@ -1,31 +1,11 @@
-//Variables and constants
+function buttonClick() {
+    console.log("Button was pressed");
 
-//const
+    const p = document.getElementById("texts");
 
-const name = "John";
-console.log("name", name);
+    p.style.color = "red";
+    p.style.fontSize = "20px";
+    p.style.backgroundColor = "black";
 
-
-// const name = "Pawan"
-
-
-//let
-
-let age = 25;
-console.log(age);
-age = 26;
-console.log(age);
-
-// let age = 27
-
-//var
-
-var address = "Nepal";
-console.log(address);
-address = "USA";
-console.log(address);
-
-
-var address = "India"
-
-console.log(address)
+    p.innerHTML = "Button was pressed";
+}
